@@ -1,0 +1,5 @@
+<?index 
+
+echo"wewzzz@"
+
+?>
