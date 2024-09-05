@@ -1,11 +1,13 @@
-<?php
+<? include "database.php"
+
+
 
 class database {
 	
 
-	$servername = "localhost";
-	$username = "username";
-	$password = "password";
+	public $servername = "localhost";
+	public $username = "username";
+	public $password = "password";
 
 
 	$conn= new mysqli($servername, $username , $password);
